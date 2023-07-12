@@ -1,0 +1,654 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Arkapln.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+.Orta {
+  position: relative;
+  justify-content: start;
+  align-items: center;
+  border-radius: 37px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.bar {
+  background-color: rgba(28, 24, 23, 0.5);
+  border: none;
+  color: white;
+  width: 430px;
+  height: 50px;
+  padding-right: 170px;
+  transition: 0.3s;
+}
+
+.bar:focus {
+  padding-bottom: 10px;
+}
+
+.bar::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bar-button {
+  position: relative;
+  right: 3px;
+  top: -2px;
+  background-color: red;
+  color: white;
+  width: 170px;
+  height: 55px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.bar:focus + .bar-button {
+  transform: translateY(5px);
+}
+
+
+.yazılar{
+  text-align: center;
+  color: white;
+}
+
+.yazı4{
+  margin-top: 10px;
+}
+
+
+.logo {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  top: 0;
+  left: 0;
+}
+
+
+.logo img {
+  width: 180px;
+  height: 80px;
+}
+
+.kutu1 {
+  color: rgb(44, 43, 43);
+  background-color: rgb(48, 48, 48);
+  border: 0px solid rgb(46, 45, 45);
+  height: 10px;
+  width: 1590;
+  padding: 1px;
+  margin-top: 0;
+  
+}
+
+.kutu2 {
+  color: rgb(44, 43, 43);
+  background-color: rgb(48, 48, 48);
+  border: 0px solid rgb(46, 45, 45);
+  height: 10px;
+  width: 100%;
+  padding: 1px;
+  margin-top: 0;
+  
+}
+
+.kutu3 {
+  color: rgb(44, 43, 43);
+  background-color: rgb(48, 48, 48);
+  border: 0px solid rgb(46, 45, 45);
+  height: 10px;
+  width: 100%;
+  padding: 1px;
+  margin-top: 0;
+  
+}
+
+.kutu4 {
+  color: rgb(44, 43, 43);
+  background-color: rgb(48, 48, 48);
+  border: 0px solid rgb(46, 45, 45);
+  height: 10px;
+  width: 100%;
+  padding: 1px;
+  margin-top: 0;
+  
+}
+
+
+.kutu5 {
+  color: rgb(44, 43, 43);
+  background-color: rgb(48, 48, 48);
+  border: 0px solid rgb(46, 45, 45);
+  height: 10px;
+  width: 100%;
+  padding: 1px;
+  margin-top: 0;
+  
+}
+
+.kutu6 {
+  color: rgb(44, 43, 43);
+  background-color: rgb(48, 48, 48);
+  border: 0px solid rgb(46, 45, 45);
+  height: 10px;
+  width: 100%;
+  padding: 1px;
+  margin-top: 0;
+  
+}
+
+
+.siyah-kutu {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.siyah-kutu img {
+  position: relative;
+  top: 0;
+  right: -250px;
+  max-width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.kutuyazı {
+  width: 50%;
+  z-index: 1;
+}
+
+.kutuyazı h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+  margin-left: 150px;
+}
+
+.kutuyazı h4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 150px;
+}
+
+.trailer {
+  position: relative;
+  right: 330px;
+  width: 400px;
+  height: 470px;
+  z-index: 0;
+}
+
+.trailer video {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  
+}
+
+.siyah-kutu2 {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.siyah-kutu2 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.kutuyazı2 {
+  width: 50%;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.kutuyazı2 h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.kutuyazı2 h4 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.siyah-kutu3 {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.siyah-kutu3 img {
+  position: relative;
+  top: 0;
+  right: -250px;
+  max-width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.kutuyazı3 {
+  width: 50%;
+  margin-left: 130px;
+  z-index: 1;
+}
+
+.kutuyazı3 h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.kutuyazı3 h4 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.trailer3 {
+  position: relative;
+  right: 280px;
+  bottom: 198px;
+  width: 300px;
+  height: 50px;
+  z-index: 0;
+}
+
+.trailer3 video {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  
+}
+
+.siyah-kutu4 {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.siyah-kutu4 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 250px;
+  max-width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.kutuyazı4 {
+  width: 50%;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.kutuyazı4 h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.kutuyazı4 h4 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
+.footers{
+  background-color: black;
+  color: grey;
+}
+
+.siyah-kutu5 {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.combobox {
+  width: 80%;
+  color: white;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(45, 45, 45);
+  border: none;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  border: none;
+  height: 80px;
+}
+
+.card-body {
+  background-color: rgb(45, 45, 45);
+  border: none;
+}
+
+.btn-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(45, 45, 45);
+}
+
+.btn-link:hover {
+  background-color: rgb(45, 45, 45);
+}
+
+.textsoru {
+  text-align: center;
+  font-weight: bold;
+}
+
+.Orta2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-wrapper2 {
+  display: inline-block;
+}
+
+.bar2 {
+  height: 35px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.bar2-button {
+  height: 35px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bar2-button:hover {
+  background-color: #cc0000;
+}
+
+.combobox {
+  background-color: black;
+}
+
+
+
+.textsoru {
+  text-align: center;
+  font-size:larger;
+  margin-top: 10px;
+}
+
+.Orta2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-wrapper2 {
+  display: inline-block;
+}
+
+.bar2 {
+  height: 35px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.bar2-button {
+  height: 35px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bar2-button:hover {
+  background-color: #cc0000;
+}
+
+.Orta2 {
+  position: relative;
+  border-radius: 37px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.input-wrapper2 {
+  position: relative;
+}
+
+.footers a {
+  color: grey;
+}
+
+
+.Orta2 {
+  position: relative;
+  justify-content: start;
+  align-items: center;
+  border-radius: 37px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.input-wrapper2 {
+  position: relative;
+}
+
+.bar2 {
+  background-color: rgba(28, 24, 23, 0.5);
+  border: none;
+  color: white;
+  width: 430px;
+  height: 50px;
+  padding-right: 170px;
+  transition: 0.3s;
+}
+
+.bar2:focus {
+  padding-bottom: 10px;
+}
+
+.bar2::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bar2-button {
+  position: relative;
+  right: 3px;
+  top: -2px;
+  background-color: red;
+  color: white;
+  width: 170px;
+  height: 55px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.bar2:focus + .bar-button {
+  transform: translateY(5px);
+}
+
+.ust {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.kayit {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: -5px;
+  padding: 0;
+}
+
+.resim {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.button-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.dropdown .resim {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+
+
+.ust {
+  position: relative;
+  top: -200px;
+  height: 50px;
+  padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.kayit {
+  background-color: red;
+  color: white;
+  border-color: red;
+  width: 110px;
+  height: 35px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.resim {
+  height: 20px;
+  width: 20px;
+  margin-right: 0px;
+}
+
+.dropdown .resim {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.svglogo{
+  position: relative;
+  left: 270px;
+  top: 50px;
+  height: 250px;
+  width: 250px;
+  fill: red;
+}
